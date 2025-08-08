@@ -1,0 +1,6 @@
+- **Structure**: Key-value stores, like Redis and DynamoDB, store data as simple key-value pairs. The key is a unique identifier, and the value can be any data (often a blob).
+- **Use Case**: Ideal for simple, fast data retrieval tasks, like caching, session management, or storing temporary data.
+- **Features**: Extremely fast for reads and writes, minimal overhead, supports simple queries based on keys.
+- **Tradeoffs**:
+    - **Pros**: High-speed performance, low-latency reads/writes, scales well for distributed applications.
+    - **Cons**: Limited querying capabilities, does not handle complex data relationships or structures as well as document databases.

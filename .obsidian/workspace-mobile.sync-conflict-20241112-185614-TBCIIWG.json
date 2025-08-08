@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "33479e926e057914",
+    "type": "split",
+    "children": [
+      {
+        "id": "698de26dcd6e52e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90ee173dd37e9230",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3caa27ecf5a5b942",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "612bd34b356d202d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "aca69a3c48cb79af",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "b548b98aa52845ed",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "61001dfeb51891d7",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "810efbfb573ec03c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "d15ee0b86b271a70",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "01a6e1602730ff69",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "61b52bcd997381bb",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {},
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "90ee173dd37e9230",
+  "lastOpenFiles": [
+    "CSE stuff/Topics/System design/Databases.md",
+    "CSE stuff/Topics/System design/System Design Foundational Topics 2.md",
+    "Untitled.canvas",
+    "CSE stuff/General terms/AWS.md",
+    "CSE stuff/Reading material",
+    "Pasted image 20240925004458.png",
+    "Pasted image 20240925003921.png",
+    "Pasted image 20240925003910.png",
+    "Pasted image 20240925003651.png",
+    "Pasted image 20240925002314.png",
+    "Pasted image 20240925001948.png",
+    "Pasted image 20240925001903.png",
+    "Pasted image 20240925000459.png",
+    "Pasted image 20240924173534.png",
+    "Pasted image 20240924172845.png",
+    "CSE stuff/Resources/Materialized views.md",
+    "CSE stuff/Resources",
+    "CSE stuff/General terms/scaling.md",
+    "CSE stuff/Topics/System design/System Design Foundational Topics 1.md",
+    "CSE stuff/Topics/System design",
+    "CSE stuff/Topics",
+    "CSE stuff/General terms/elastic search.md",
+    "CSE stuff/General terms/message queues.md",
+    "CSE stuff/General terms/message streams.md",
+    "CSE stuff/General terms/kafka.md",
+    "CSE stuff/General terms/async.md",
+    "CSE stuff/General terms/sharding.md",
+    "CSE stuff/General terms/SQS.md",
+    "CSE stuff/General terms/Delegation.md",
+    "CSE stuff/General terms/load testing.md",
+    "CSE stuff/General terms/API.md",
+    "CSE stuff/General terms/CDN.md",
+    "CSE stuff/General terms/local storage.md",
+    "CSE stuff/General terms/Database.md",
+    "CSE stuff/General terms/joins.md",
+    "CSE stuff/General terms/Caching.md",
+    "CSE stuff/General terms/Scaling.md",
+    "CSE stuff/General terms/Cascading failures.md",
+    "CSE stuff/General terms/concurrency.md",
+    "CSE stuff/General terms",
+    "CSE stuff/System design/Foundational topics.md",
+    "CSE stuff/System design",
+    "CSE stuff",
+    "6 - Main notes",
+    "5 - Templates",
+    "4 - Indexes",
+    "new note.md"
+  ]
+}

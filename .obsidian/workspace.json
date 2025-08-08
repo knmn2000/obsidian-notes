@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "9a25c4295cba451d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b644a343e0dc2104",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fc2c689c1d779c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSE stuff/Topics/Frontend/JS/Adv working with functions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Adv working with functions"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "860784b195e91f9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "65945d8555f1c665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6c01b93e79a6ddc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e51c52fe08a05b46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "560860e427f58ffa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5d50b5be05f1339b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7125a5d17b264e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "745528c9ee82951f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CSE stuff/Topics/Frontend/JS/Adv working with functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Adv working with functions"
+            }
+          },
+          {
+            "id": "465d9998bfa89dcb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CSE stuff/Topics/System design/Non relational databases.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Non relational databases"
+            }
+          },
+          {
+            "id": "ac425b52ec047896",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "981a4f69ccf0d209",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CSE stuff/Topics/System design/Non relational databases.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Non relational databases"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "7fc2c689c1d779c3",
+  "lastOpenFiles": [
+    "CSE stuff/Topics/Frontend/JS/Objects.md",
+    "CSE stuff/Topics/Frontend/JS/Primitives.md",
+    "CSE stuff/Topics/Frontend/JS/Adv working with functions.md",
+    "self/schedule.md",
+    "CSE stuff/Topics/System design/Non relational databases.md",
+    "self",
+    "ChatGPT_MD/chats/Diff between consistencies.md",
+    "CSE stuff/Topics/System design/System Design Foundational Topics 1.md",
+    "CSE stuff/Topics/System design/Databases.md",
+    "CSE stuff/Attachments/Pasted image 20250516220648.png",
+    "CSE stuff/Attachments/Pasted image 20250516220454.png",
+    "CSE stuff/Topics/Frontend/JS/Untitled",
+    "Workstuff/tasks/website/schema update.md",
+    "CSE stuff/Attachments/Pasted image 20250412130720.png",
+    "Workstuff/tasks/Omnilogin/things left to do.md",
+    "quesBank/intervals.md",
+    "Workstuff/discussions/auth package.md",
+    "CSE stuff/Attachments/~syncthing~Pasted image 20250412130720.png.tmp",
+    "Workstuff/tasks/website/~syncthing~schema update.md.tmp",
+    "Workstuff/tasks/Omnilogin/~syncthing~things left to do.md.tmp",
+    "Workstuff/discussions/~syncthing~auth package.md.tmp",
+    "quesBank/~syncthing~intervals.md.tmp",
+    "CSE stuff/Attachments/Pasted image 20250402113327.png",
+    "CSE stuff/Attachments/Pasted image 20250308132925.png",
+    "CSE stuff/Attachments/Pasted image 20250412131310.png",
+    "CSE stuff/Attachments/Pasted image 20250308132951.png",
+    "CSE stuff/Attachments/Pasted image 20250308133632.png",
+    "quesBank/Machine coding - rate limiter.md",
+    "CSE stuff/Resources/v8 garbage collection link.md",
+    "Workstuff/tasks/website/algolia cleanup.md",
+    "products/teacherplatform/Resources.md",
+    "Workstuff/tasks/Omnilogin/Backend deps.md",
+    "Workstuff/tasks/checkout/doc.md",
+    "products/teacherplatform/Todo.md",
+    "Workstuff/tasks/Spaceops/~syncthing~Give option to users to skip entire category while filling building walkthrough checklist.md.tmp",
+    "Workstuff/tasks/website/~syncthing~algolia cleanup.md.tmp",
+    "CSE stuff/Attachments/~syncthing~Pasted image 20250308132951.png.tmp",
+    "data structures.md",
+    "CSE stuff/Topics/System design/System Design Foundational Topics 2.md",
+    "CSE stuff/Topics/Frontend/NextJs/Caching.md",
+    "CSE stuff/Topics/Frontend/NextJs/Server components.md",
+    "CSE stuff/Topics/Frontend/NextJs/Reserved items.md",
+    "CSE stuff/Topics/Frontend/NextJs/App router.md",
+    "Workstuff/tasks/Omnilogin/centralised login.md",
+    "Untitled 1.canvas",
+    "CSE stuff/Attachments/Pasted image 20241224093623.png",
+    "CSE stuff/Attachments/Pasted Image 20241112014254_755.png",
+    "Untitled.canvas",
+    "Untitled 2.canvas"
+  ]
+}
