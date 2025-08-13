@@ -1,0 +1,3 @@
+A streaming broker is different from a message queue for many reasons. For starters, messages are organized into log files or topics. One or more consumers can subscribe to a log file or topic to receive all messages that come through that stream. With proper setup, a streaming broker will deliver the same message to every subscriber, in a specific order. This is often described as a publish-subscribe pattern.
+
+Active subscribers will always get the message, but with this type of message broker, new subscribers can access the logs file and read messages from any point in time. This has its own set of benefits for many use cases.

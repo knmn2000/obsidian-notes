@@ -1,0 +1,5 @@
+https://aws.amazon.com/what-is/materialized-view/#:~:text=A%20materialized%20view%20is%20a,for%20customer%20and%20product%20data.
+
+	A materialized view is a duplicate data table created by combining data from multiple existing tables for faster data retrieval. 
+	
+	For example, consider a retail application with two base tables for customer and product data. The customer table contains information like the customer’s name and contact details, while the product table contains information about product details and cost. The customer table only stores the product IDs of the items an individual customer purchases. You have to cross-reference both tables to obtain product details of items purchased by specific customers. Instead, you can create a materialized view that stores customer names and the associated product details in a single temporary table. You can build index structures on the materialized view for improved data read performance.

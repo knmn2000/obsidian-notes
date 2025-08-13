@@ -1,0 +1,1 @@
+https://archive.org/details/patterns-of-enterprise-application-architecture-martin-fowler_202105/mode/2up
