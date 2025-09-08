@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "57bb1f97d46b5bab",
+        "id": "879058e817de21ae",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE stuff/Topics/System design - self/DDIA/Data models and query languages.md",
+                "file": "Workstuff/Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data models and query languages"
+              "title": "Notes"
             }
           }
         ]
@@ -165,6 +165,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -176,8 +177,16 @@
   },
   "active": "3de9795027aeffc8",
   "lastOpenFiles": [
-    "CSE stuff/Topics/System design - self/DDIA/Reliable scalable and maintainable applications.md",
     "CSE stuff/Topics/System design - self/DDIA/Data models and query languages.md",
+    "CSE stuff/Topics/System design - self/DDIA/Reliable scalable and maintainable applications.md",
+    "CSE stuff/Topics/System design - self/General topics/HTTPS.md",
+    "CSE stuff/Topics/Frontend/JS/adv working with fns.md",
+    "CSE stuff/Topics/System design - self/General topics/Untitled",
+    "CSE stuff/Topics/System design - self/General topics",
+    "Untitled 1.md",
+    "CSE stuff/Topics/Frontend/JS/Objects.md",
+    "CSE stuff/Topics/Frontend/JS/Primitives.md",
+    "CSE stuff/Topics/Frontend/JS/Untitled",
     "CSE stuff/Attachments/Pasted image 20250815143355.png",
     "CSE stuff/Attachments/Pasted image 20250815143345.png",
     "CSE stuff/Reading material/chaos monkey netflix.md",
@@ -206,18 +215,10 @@
     "CSE stuff/Topics/System design - self/Whatsapp/Drawing 2025-06-20 16.57.30.excalidraw.md",
     "CSE stuff/Topics/System design - self/Whatsapp/maniccaa.md",
     "CSE stuff/Topics/System design - self/Whatsapp/Untitled",
-    "maniacal.md",
-    "Workstuff/tasks/checklist - general.md",
     "CSE stuff/Topics/System design - self/Whatsapp",
-    "CSE stuff/Topics/System design - self/Whatsapp.md",
     "CSE stuff/Topics/System design - self",
-    "Workstuff/tasks/Omnilogin/things left to do.md",
-    "products/lcb",
-    "Workstuff/tasks/Omnilogin/centralised login.md",
-    "CSE stuff/Topics/Untitled",
     "Untitled 2.canvas",
     "CSE stuff/Attachments/Pasted image 20250412130720.png",
-    "CSE stuff/Attachments/~syncthing~Pasted image 20250412130720.png.tmp",
     "CSE stuff/Attachments/Pasted image 20250402113327.png",
     "CSE stuff/Attachments/Pasted image 20250308132925.png",
     "CSE stuff/Attachments/Pasted image 20250412131310.png",

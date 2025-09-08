@@ -442,7 +442,7 @@ alert( map.size ); // 3
 
 ```
 
-note
+#note
 if we do `map[key]` , then the map will be treated like an object and the optimizations etc made for map will go away. like `map[int]` will now be treated as `map[string]` which is not how maps usually work because you can have int and string keys 
 
 ### -> we can use objects as keys in Map. cant do so in a standard Object
