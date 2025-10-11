@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "Notes"
             }
+          },
+          {
+            "id": "04b92b1bf84221e8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3de9795027aeffc8",
+  "active": "04b92b1bf84221e8",
   "lastOpenFiles": [
     "CSE stuff/Topics/System design - self/DDIA/Data models and query languages.md",
     "CSE stuff/Topics/System design - self/DDIA/Reliable scalable and maintainable applications.md",
