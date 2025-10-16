@@ -104,5 +104,31 @@ the edge server will give it to [[kafka]], which will eventually process and per
 ![[Pasted image 20241106170202.png]]
 in zoom, we dont have chat persistence at all, so we just communication between the users. simple [[socket]] connection.
 
-continue 1.47
 
+### How to scale websockets
+![[Pasted image 20251016170803.png]]
+
+
+taking example of a slack channel
+lets say a websocket server can support 4 connections at max, if there are 5 users, then 4 users will connect to WS1, and 1 user to WS2
+
+how will WS1 and WS2 communicate, will the messages from users on WS1 travel to WS2? how?
+
+you can have a simple TCP connection between WS1 and WS2 to support this.
+
+now lets say, there are even more users, now what? will we add another TCP connection? WS1,2,3 will have to be interconnected, and this problem will become bigger down the line, it will have to be a fully connected graph.
+
+if there are 4 servers, then each WS will have 4 users connected via socket, and 3 TCP connections (4-1). and then these TCP connections will keep increasing as more servers are added.
+
+what can be done? 
+Just add a simple redis pubsub, it works in realtime.
+redis pubsub also has channels, so redis channels can be mapped to slack channels, which is what the servers will refer to. 
+
+WS1 subscribes to redis channel (C1) which corresponds to slack channel S1
+WS2 subscribes to redis channel (C1) which corresponds to slack channel S1
+^ now users on WS1 and WS2 will be talking to each other successfully. 
+WS3 and WS4 users may be on other channels.
+
+Now when a new user comes, they will need to understand which web socket to connect to, we can have a separate DNS like service for that. which will tell the user which server to connect to, and the server will handle the rest.
+
+this way we have N(users)+1 number of connections per server, with redis handling the rest.

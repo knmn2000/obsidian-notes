@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workstuff/Notes.md",
+                "file": "CSE stuff/Topics/System design - bhayani/Distributed systems.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,23 +28,20 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Distributed systems"
             }
           },
           {
-            "id": "04b92b1bf84221e8",
+            "id": "c85c6ee761916f28",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,11 +185,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "04b92b1bf84221e8",
+  "active": "3de9795027aeffc8",
   "lastOpenFiles": [
-    "CSE stuff/Topics/System design - self/DDIA/Data models and query languages.md",
-    "CSE stuff/Topics/System design - self/DDIA/Reliable scalable and maintainable applications.md",
+    "CSE stuff/Topics/System design - bhayani/Non relational databases.md",
+    "CSE stuff/Topics/System design - bhayani/Distributed systems.md",
+    "CSE stuff/Attachments/Pasted image 20251016170803.png",
+    "CSE stuff/Attachments/Pasted image 20251016161538.png",
+    "ChatGPT_MD/chats/Diff between consistencies.md",
+    "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 2.md",
+    "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 1.md",
+    "CSE stuff/Topics/System design - bhayani/Databases.md",
+    "CSE stuff/Topics/System design - self/DDIA/3 Storage and retrieval.md",
+    "CSE stuff/Topics/System design - self/DDIA/2 Data models and query languages.md",
+    "CSE stuff/Topics/System design - self/DDIA/1 Reliable scalable and maintainable applications.md",
     "CSE stuff/Topics/System design - self/General topics/HTTPS.md",
+    "Workstuff/Checklist.md",
+    "Workstuff/Notes.md",
     "CSE stuff/Topics/Frontend/JS/adv working with fns.md",
     "CSE stuff/Topics/System design - self/General topics/Untitled",
     "CSE stuff/Topics/System design - self/General topics",
@@ -208,12 +216,8 @@
     "CSE stuff/General terms/redis.md",
     "CSE stuff/General terms/kafka.md",
     "CSE stuff/Attachments/Pasted image 20250813235033.png",
-    "CSE stuff/Topics/System design - bhayani/Databases.md",
     "Workstuff/tasks/audit dashboard.md",
-    "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 2.md",
     "CSE stuff/Topics/System design - self/DDIA",
-    "CSE stuff/Topics/System design - bhayani/Non relational databases.md",
-    "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 1.md",
     "CSE stuff/Resources/book links.md",
     "CSE stuff/Resources/Materialized views.md",
     "CSE stuff/Resources/v8 garbage collection link.md",
@@ -221,12 +225,7 @@
     "CSE stuff/Topics/System design - self/DDIA/ch1 Reliable scalable and maintainable apps.md",
     "CSE stuff/Topics/System design - self/DDIA",
     "CSE stuff/Topics/System design - self/Whatsapp/Untitled.canvas",
-    "CSE stuff/Reading material/System design - linkedin post.md",
-    "products/dawai/TRD.md",
-    "products/lcb/notes.md",
     "products/dawai",
-    "CSE stuff/Topics/System design - self/Whatsapp/Drawing 2025-06-20 16.57.30.excalidraw.md",
-    "CSE stuff/Topics/System design - self/Whatsapp/maniccaa.md",
     "CSE stuff/Topics/System design - self/Whatsapp/Untitled",
     "CSE stuff/Topics/System design - self/Whatsapp",
     "CSE stuff/Topics/System design - self",
@@ -236,9 +235,7 @@
     "CSE stuff/Attachments/Pasted image 20250308132925.png",
     "CSE stuff/Attachments/Pasted image 20250412131310.png",
     "CSE stuff/Attachments/Pasted image 20250308132951.png",
-    "CSE stuff/Attachments/Pasted image 20250308133632.png",
     "Untitled 1.canvas",
-    "CSE stuff/Attachments/Pasted image 20241224093623.png",
     "Untitled.canvas"
   ]
 }
