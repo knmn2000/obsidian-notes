@@ -68,15 +68,10 @@ even if we start off with a join-free document DB, applications usually develop 
 ```
 Recommendations
 Say you want to add a new feature: one user can write a recommendation for
-
-another user. The recommendation is shown on the résumé of the user who was
-
+nother user. The recommendation is shown on the résumé of the user who was
 recommended, together with the name and photo of the user making the recom‐
-
 mendation. If the recommender updates their photo, any recommendations they
-
 have written need to reflect the new photo. Therefore, the recommendation
-
 should have a reference to the author’s profile.
 ```
 
