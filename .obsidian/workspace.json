@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "879058e817de21ae",
+        "id": "dcfe24f5185453b8",
         "type": "tabs",
         "children": [
           {
-            "id": "3de9795027aeffc8",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "029e76be2413b0d8",
+            "id": "a64045821adc333e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,18 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "3 Storage and retrieval"
-            }
-          },
-          {
-            "id": "8a34d21a06771ee5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
             }
           }
         ]
@@ -113,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 291.5
   },
   "right": {
     "id": "5d50b5be05f1339b",
@@ -200,13 +175,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3de9795027aeffc8",
+  "active": "a64045821adc333e",
   "lastOpenFiles": [
-    "Workstuff/tasks/paddle court <> activity/Untitled.md",
+    "Workstuff/tasks/paddle court <> activity/Activity <> Paddle court.md",
+    "CSE stuff/Topics/System design - self/DDIA/3 Storage and retrieval.md",
+    "CSE stuff/Attachments/Pasted image 20251206011907.png",
+    "CSE stuff/Attachments/Pasted image 20251206011845.png",
+    "CSE stuff/Attachments/Pasted image 20251206004217.png",
+    "CSE stuff/Attachments/Pasted image 20251206004146.png",
     "Untitled.base",
     "Workstuff/tasks/Guest checkout/FE.md",
     "Workstuff/tasks/paddle court <> activity",
-    "CSE stuff/Topics/System design - self/DDIA/3 Storage and retrieval.md",
     "CSE stuff/Attachments/Pasted image 20251128122939.png",
     "CSE stuff/Attachments/Pasted image 20251128122547.png",
     "CSE stuff/Topics/System design - self/DDIA/2 Data models and query languages.md",
@@ -241,14 +220,10 @@
     "CSE stuff/Attachments/Pasted image 20250815143355.png",
     "CSE stuff/Attachments/Pasted image 20250815143345.png",
     "CSE stuff/Reading material/Untitled",
-    "CSE stuff/Attachments/Pasted image 20250813235033.png",
     "CSE stuff/Topics/System design - self/DDIA",
     "CSE stuff/Topics/System design - self/DDIA",
     "CSE stuff/Topics/System design - self/Whatsapp/Untitled.canvas",
     "Untitled 2.canvas",
-    "CSE stuff/Attachments/Pasted image 20250412130720.png",
-    "CSE stuff/Attachments/Pasted image 20250402113327.png",
-    "CSE stuff/Attachments/Pasted image 20250308132925.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
