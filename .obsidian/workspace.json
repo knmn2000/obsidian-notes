@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workstuff/tasks/paddle_court-activity/Activity-Paddle court.md",
+                "file": "CSE stuff/Topics/System design - self/DDIA/3 Storage and retrieval.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Activity-Paddle court"
+              "title": "3 Storage and retrieval"
             }
           }
         ]
@@ -175,9 +175,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b6c01b93e79a6ddc",
+  "active": "a64045821adc333e",
   "lastOpenFiles": [
+    "CSE stuff/Topics/System design - self/DDIA/4 Encoding.md",
     "CSE stuff/Topics/System design - self/DDIA/3 Storage and retrieval.md",
+    "CSE stuff/Topics/System design - self/DDIA/Untitled",
+    "CSE stuff/Attachments/Pasted image 20251231011912.png",
+    "CSE stuff/Attachments/Pasted image 20251231000316.png",
+    "CSE stuff/Attachments/Pasted image 20251230235946.png",
     "Workstuff/tasks/paddle_court-activity/Activity-Paddle court.md",
     "CSE stuff/Attachments/Pasted image 20251206011907.png",
     "CSE stuff/Attachments/Pasted image 20251206011845.png",
@@ -205,7 +210,6 @@
     "CSE stuff/Topics/System design - bhayani/Distributed systems.md",
     "CSE stuff/Topics/System design - bhayani/Non relational databases.md",
     "CSE stuff/Attachments/Pasted image 20251016170803.png",
-    "CSE stuff/Attachments/Pasted image 20251016161538.png",
     "ChatGPT_MD/chats/Diff between consistencies.md",
     "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 2.md",
     "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 1.md",
@@ -217,10 +221,7 @@
     "Untitled 1.md",
     "CSE stuff/Topics/Frontend/JS/Objects.md",
     "CSE stuff/Topics/Frontend/JS/Untitled",
-    "CSE stuff/Attachments/Pasted image 20250815143355.png",
-    "CSE stuff/Attachments/Pasted image 20250815143345.png",
     "CSE stuff/Reading material/Untitled",
-    "CSE stuff/Topics/System design - self/DDIA",
     "CSE stuff/Topics/System design - self/DDIA",
     "CSE stuff/Topics/System design - self/Whatsapp/Untitled.canvas",
     "Untitled 2.canvas",

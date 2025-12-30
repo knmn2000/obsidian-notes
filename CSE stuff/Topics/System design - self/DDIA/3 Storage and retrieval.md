@@ -1,5 +1,5 @@
 
-Think about whats more important - analytics or transactions? difference in storage engine optimized for either of them
+Think about whats more important - analytics or transactions? there are differences in storage engine optimized for either of them
 
 Log structured and Page structured (like B trees) storage engines
 
@@ -224,5 +224,74 @@ Bloom filters are a probabilistic magical DS thing, that tells you if a key is n
 # B trees
 the most common indexing structure
 
+they also keep the keys sorted like sstables, but the page size is fixed. each block is of fixed size. (thats where the similarity ends)
+![[Pasted image 20251230235946.png]]
 
 
+btrees break database down into fixed size blocks or pages (usually 4KB)
+read or write one page at a time
+notice how this corresponds to the hardware, as disks are also in fixed size chunks
+
+number of references at each level (at each page) is called the branching factor. in the above image, it is 6
+
+if insertion of a key makes a page bigger than the fixed page size, then we split the page into two 
+![[Pasted image 20251231000316.png]]
+
+the tree remains balanced, height of O(LogN)
+
+```
+A four-level tree of 4 KB pages with a branching factor of 500 can store up to
+256 TB.
+```
+
+
+![[Pasted image 20251231011912.png]]
+
+
+pasted from gemini. read from book later
+```
+## OLTP vs. OLAP
+
+As applications grow, we split database work into two categories:
+
+- **OLTP (Online Transaction Processing):** High volume of small requests (e.g., "User 123 changed their password"). Focus: **Low Latency.**
+    
+- **OLAP (Online Analytical Processing):** Lower volume, but huge queries (e.g., "Total revenue in Q3 across all stores"). Focus: **Throughput.**
+    
+
+---
+
+## 4. Data Warehousing & Schemas
+
+A **Data Warehouse** is a separate database containing a read-only copy of all your OLTP data, optimized for analysis.
+
+- **Star Schema:** A central **Fact Table** (huge, contains individual events like "a sale") surrounded by **Dimension Tables** (metadata like "who bought it," "which store").
+    
+- **Snowflake Schema:** A Star Schema where dimension tables are further broken down (normalized) into sub-dimensions (e.g., _Product_ → _Brand_).
+    
+
+---
+
+## 5. Column-Oriented Storage (The OLAP Game Changer)
+
+In OLTP, data is stored **row-by-row**. In OLAP, we use **Column-Oriented Storage**.
+
+- **The Idea:** Store all values for Column A together, then all values for Column B, etc.
+    
+- **Why it works:**
+    
+    1. **I/O Efficiency:** If you only need to calculate `SUM(price)`, you only read the `price` column file from disk, skipping names, IDs, and emails.
+        
+    2. **Compression:** Because values in a column are similar (e.g., a column of country names), you can use **Bitmap Encoding** or **Run-length Encoding** to shrink the data massively.
+        
+    3. **Vectorized Processing:** CPUs can process "vectors" of data from these columns much faster than individual rows.
+        
+
+## 6. Pre-computing Results
+
+To make massive queries even faster, databases use:
+
+- **Materialized Views:** A query result that is physically saved to disk and updated as data comes in.
+    
+- **Data Cubes:** A multi-dimensional materialized view. It pre-calculates every possible total (e.g., Sales by Product AND Sales by Store AND Sales by Date). It makes dashboarding instant but makes data ingestion much slower.
+```
