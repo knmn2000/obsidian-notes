@@ -1,4 +1,6 @@
 	
+> **[[System Design MOC|↑ System Design]]** · DDIA 1/5 · next → [[2 Data models and query languages]]
+
 #read what is stream processing? (sending a message to another process?)
 
 datastorage tools no longer neatly sit inside traditional categories

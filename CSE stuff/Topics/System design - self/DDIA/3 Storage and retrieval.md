@@ -1,3 +1,5 @@
+> **[[System Design MOC|↑ System Design]]** · DDIA 3/5 · [[2 Data models and query languages|← prev]] · next → [[4 Encoding]]
+
 Think about whats more important - analytics or [[transactions]]? there are differences in storage engine optimized for either of them
 
 #note Log structured and Page structured (like B trees) storage engines

@@ -1,3 +1,5 @@
+> **[[System Design MOC|↑ System Design]]** · DDIA 4/5 · [[3 Storage and retrieval|← prev]] · next → [[5 Replication]]
+
 ----
 
 Evolution is the only constant. Code changes, data remains.

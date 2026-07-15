@@ -1,3 +1,5 @@
+> **[[System Design MOC|↑ System Design]]** · DDIA 5/5 · [[4 Encoding|← prev]]
+
 ******![[Pasted image 20260704001435.png]]
 ---
 ## why would you replicate?

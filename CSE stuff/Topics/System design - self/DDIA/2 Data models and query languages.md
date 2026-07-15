@@ -1,3 +1,5 @@
+> **[[System Design MOC|↑ System Design]]** · DDIA 2/5 · [[1 Reliable scalable and maintainable applications|← prev]] · next → [[3 Storage and retrieval]]
+
 ```
 The limits of my language mean the limits of my world.
 	—Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1922)
