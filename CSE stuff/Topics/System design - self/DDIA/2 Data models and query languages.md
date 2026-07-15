@@ -48,7 +48,6 @@ The lack of structure can be seen as an advantage (flexibility ++)
 
 also note that json has high locality of data.
 
-
 ### wdym by normalization
 
 definition: “structuring data to reduce duplication, usually via dividing data into multiple related tables"
