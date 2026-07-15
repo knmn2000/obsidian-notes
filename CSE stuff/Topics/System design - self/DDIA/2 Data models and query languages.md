@@ -8,8 +8,8 @@ Not only SQL
 
 why was it adopted
 - less stringent rules, can store anything anyhow unlike strict SQL schemas
-- "A need for greater scalability than relational databases can easily achieve, includ‐
-ing very large datasets or very high write throughput " -> why?
+- "A need for greater scalability than [[Relational database|relational databases]] can easily achieve, includ‐
+ing very large datasets or very high write [[throughput]] " -> why?
 - specialized query operations not supported easily by relational models
 
 todays languages are object oriented, SQL DB is not made up of objects
@@ -59,8 +59,8 @@ idea:
 #note this idea of removing duplication is the idea behind normalization.
 
 from this we can realize that normalization makes sense when there are many to one relationships (many people live in one particular region, many people work in one particular industry)
-document DBs dont usually have such structure, this is more of a relational DB style structure. 
-support for joins is very weak in document DBs
+[[Document DB|document DBs]] dont usually have such structure, this is more of a relational DB style structure. 
+support for [[joins]] is very weak in document DBs
 
 even if we start off with a join-free document DB, applications usually develop into needing joins, example:
 

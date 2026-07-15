@@ -3,7 +3,7 @@
 ---
 # Objects intro
 
-Non primitive because can contain multiple types of [[data structures]]
+Non [[Primitives|primitive]] because can contain multiple types of [[data structures]]
 
 question -> what can we pass to the object [[constructor]]?
 ```js

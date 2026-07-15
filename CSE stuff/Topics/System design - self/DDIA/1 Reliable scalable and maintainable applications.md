@@ -2,7 +2,7 @@
 #read what is stream processing? (sending a message to another process?)
 
 datastorage tools no longer neatly sit inside traditional categories
-- [[redis]] is a datastore, but apparently its also used a message queue
+- [[redis]] is a datastore, but apparently its also used a [[message queues|message queue]]
 - [[kafka]] is a message store but it has database like durability guarantees. 
 
 example of an app that combines multiple data systems. notice that the application code handles 
@@ -38,7 +38,7 @@ redundancy may not work for all cases, we are moving towards system that can tol
 examples:
 - #read look into leap second crash on jun30 2012, which messed up apps due to a bug in linux kernel 
 - leaks
-- cascading fails
+- [[Cascading failures|cascading fails]]
 ---
 # Scalability
 
@@ -53,7 +53,7 @@ example:
 - requests/second to a server
 - read to write ratio to a db
 - simultaneous connections
-- cache hit rate
+- [[CSE stuff/General terms/Caching|cache]] hit rate
 
 ### twitter example for load params
 
@@ -126,7 +126,7 @@ app1 for celebs, and app2 to for others.
 
 how do resources (cpu memory network etc) change with load params.
 
-latency vs response time
+[[latency]] vs response time
 - The response time is what the client sees: besides
 the actual time to process the request (the service time), it includes
 network delays and queueing delays. Latency is the duration that a
@@ -183,7 +183,7 @@ effect known as **tail latency amplification**
 
 ### Coping with load
 
-horizontal scaling and vertical scaling
+horizontal [[Scaling|scaling]] and vertical scaling
 #note Distributing load across multiple machines is also known as a shared-nothing architecture. 
 
 there is no one size fits all

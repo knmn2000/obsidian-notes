@@ -3,7 +3,7 @@
 ### Agenda
 - [[Relational database]] & pessimistic locking
 - Designing: Airline locking system
-- Designing: KV store on relational DB
+- Designing: [[Key Value store|KV store]] on relational DB
 
 ### [[Relational database]]
 
@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=3G293is403I&pp=ygUVYXJwaXQgYmhheWFuaSBpbmRleGVz
 
 ### [[Database]] locking
 
-Before an operation that could give inconsistencies if operated on concurrently, we should lock it.
+Before an operation that could give inconsistencies if operated on [[concurrency|concurrently]], we should lock it.
 
 > LOCK operation UNLOCK
 
@@ -36,7 +36,7 @@ ie, protecting against concurrent updates.
 **Risk: Transactional [[deadlock]]** #read
 A wants R1, R1 is locked by B, B wants R2 which is locked by A.
 
-Transaction that detects [[deadlock]] kills itself. 
+[[transactions|Transaction]] that detects [[deadlock]] kills itself. 
 most DBs dont let transactions enter a [[deadlock]] state.
 
 **Shared locks**
@@ -56,7 +56,7 @@ if current transaction wants to write, then we upgrade the lock to exclusive loc
 ![[Pasted image 20240926155247.png]]
 
 Transaction 2 will wait for transaction 1 till it completes or aborts, as it has an exclusive lock on a row that transaction 2 needs.
-Note that throughput is severely affected here
+Note that [[throughput]] is severely affected here
 
 **SKIP LOCKED**
 

@@ -51,8 +51,8 @@ curl --location '[https://wwistaging.in/api/revalidate/?path=%2F](https://wwista
 ---
 things to try
 - cloudfront (ask kishan)
-- some scripts can be made async (need to check)
+- some scripts can be made [[async]] (need to check)
 - check if images are properly optimised for mobile
-- verify if nextjs caching is setup correctly
+- verify if nextjs [[CSE stuff/General terms/Caching|caching]] is setup correctly
 - lazy loaded components
 - check libphonenumber, why is it so big

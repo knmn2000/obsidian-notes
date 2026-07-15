@@ -146,7 +146,7 @@ An example from medium.com project: if 2 users clap on a blog at the same time, 
 
 ### [[Communication]] 
 
-#read #watch actual meaning of REST (arpit bhayani video)
+#read #watch actual meaning of [[REST]] (arpit bhayani video)
 ![[Pasted image 20240926003938.png]]
 
 **Short polling** #try 

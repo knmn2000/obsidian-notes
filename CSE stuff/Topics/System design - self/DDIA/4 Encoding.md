@@ -72,14 +72,14 @@ To really save space and get performance, we need to stop storing field names.
 
 ## 2. Data through Services ([[REST]] & [[RPC]])
 
-- **[[REST]]**: Uses HTTP, URL-oriented, JSON/XML. Great for public APIs.
+- **[[REST]]**: Uses HTTP, URL-oriented, JSON/XML. Great for public [[API|APIs]].
 - **[[RPC]] (gRPC, Thrift)**: Tries to make a remote call look like a local function call.
   - **Problem**: Network is not like local memory. It can fail, timeout, or be slow.
   - **gRPC**: Uses Protobuf, better performance than REST.
 
 ## 3. Asynchronous Message Passing
 
-(Kafka, RabbitMQ, NATS)
+([[kafka|Kafka]], RabbitMQ, NATS)
 
 - **Pros**:
   - Decoupling (Sender doesn't need to know receiver).
@@ -91,5 +91,5 @@ To really save space and get performance, we need to stop storing field names.
 
 # Summary Trade-off
 
-- **Textual (JSON)**: Good for "getting started" and public APIs. Expensive for high-throughput.
+- **Textual (JSON)**: Good for "getting started" and public APIs. Expensive for high-[[throughput]].
 - **Binary (Protobuf/Avro)**: Best for internal microservices. Requires schema management but saves massive amounts of CPU and Bandwidth.

@@ -13,5 +13,5 @@ const getStuff async () => {
 }
 ```
 
-->>>> ***server components can be async-awaited.***  <<<<<-
+->>>> ***server components can be [[async]]-awaited.***  <<<<<-
 

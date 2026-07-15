@@ -133,4 +133,4 @@ These scenarios force careful handling of index boundaries, start/end comparison
 2. **Justify** their time/space complexity.
 3. **Explain** how they handle boundary conditions like `[2,2]` or intervals touching at the boundaries.
 
-This problem’s complexity and array of edge conditions make it a solid test for a candidate’s **data structures and algorithm** skills, especially their ability to handle tricky corner cases.
+This problem’s complexity and array of edge conditions make it a solid test for a candidate’s **[[data structures]] and algorithm** skills, especially their ability to handle tricky corner cases.

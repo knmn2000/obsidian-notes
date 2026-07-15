@@ -10,7 +10,7 @@ Note: There are 2 types of consistencies #read
 		- What is the difference? [[Diff between consistencies]]
 
 
-Please understand that we cant just say that non reln DB dont scale, we can even have unscalable reln DB. 
+Please understand that we cant just say that non reln DB dont [[Scaling|scale]], we can even have unscalable reln DB. 
 We give up features that we dont want to have the features that we want, and things will scale.
 if consistency is not important, we can just choose non reln DB and use its features.
 
@@ -28,7 +28,7 @@ if consistency is not important, we can just choose non reln DB and use its feat
 	- we get [[partition]], but we limit access to data, because a key value may be in only one DB
 
 - **Choose Document DB**: When data is complex, hierarchical, or needs to be queried by multiple fields, with less emphasis on speed for simple operations.
-- **Choose Key-Value Store**: When speed and simplicity are key, especially for high-frequency reads/writes, caching, or storing unstructured data where only the key is needed for retrieval.
+- **Choose Key-Value Store**: When speed and simplicity are key, especially for high-frequency reads/writes, [[CSE stuff/General terms/Caching|caching]], or storing unstructured data where only the key is needed for retrieval.
 
 ![[Screenshot 2024-11-01 at 4.30.09 PM.png]]
 ![[Screenshot 2024-11-01 at 4.40.58 PM.png]]
@@ -91,7 +91,7 @@ if we dont persist first, people will be notified, but the message wont be visib
 
 For an enterprise application like slack, persistence is more valuable than fast communication.
 
-The sender will make a API call, to the server, the API will save things to DB as well as tell the edge server to notify the users. 
+The sender will make a [[API]] call, to the server, the API will save things to DB as well as tell the edge server to notify the users. 
 the receivers will have a socket connection with the edge server, so they dont have to refresh the page to view the message
 
 ![[Pasted image 20241106170039.png]]
@@ -121,7 +121,7 @@ now lets say, there are even more users, now what? will we add another TCP conne
 if there are 4 servers, then each WS will have 4 users connected via socket, and 3 TCP connections (4-1). and then these TCP connections will keep increasing as more servers are added.
 
 what can be done? 
-Just add a simple redis pubsub, it works in realtime.
+Just add a simple [[redis]] pubsub, it works in realtime.
 redis pubsub also has channels, so redis channels can be mapped to slack channels, which is what the servers will refer to. 
 
 WS1 subscribes to redis channel (C1) which corresponds to slack channel S1

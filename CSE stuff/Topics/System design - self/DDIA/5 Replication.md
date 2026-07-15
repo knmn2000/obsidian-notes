@@ -6,9 +6,9 @@
 Amazon has so many zones (us-west-1 us-east-1 us-west-2).
 each zone itself has an availability zone inside it. the different availability zones have different power sources, buildings etc etc. so even if 1 or 2 zones go down, we can "fail-over" into the next zone being the primary zone (which means this new zone will become the leader, and all the other zones will just copy stuff from the primary zone)
 
-- Scale: spread out reads across multiple machines.
+- [[Scaling|Scale]]: spread out reads across multiple machines.
 
----------
+----------
 
 ## Master-slave arch
 
@@ -18,12 +18,12 @@ each zone itself has an availability zone inside it. the different availability 
 ### synchronous vs asynchronous replication
 ![[Pasted image 20260705160113.png]]
 follower 1 : synchronous. leader waits for follower to say OK
-follower 2 : asynchronous. follower1 (leader of follower2) expects that things will _just happen correctly_
+follower 2 : [[async|asynchronous]]. follower1 (leader of follower2) expects that things will _just happen correctly_
 
 
 usually replication is fast
 - but sometimes followers can lag behind (during a failure, or too much load etc)
-- then the follower just checks the logs of the leader. follower usually knows uptil what point they were in sync, then follower does the same transactions as suggested by the leader's logs from the point of when the failure ocurred.
+- then the follower just checks the logs of the leader. follower usually knows uptil what point they were in sync, then follower does the same [[transactions]] as suggested by the leader's logs from the point of when the failure ocurred.
 
 synchronous may sound like a good idea but it obviously blocks writes until follower has processed stuff.
 
@@ -86,7 +86,7 @@ disadvantage:
 ### Trigger-based replication
 replication based on same logic/code written by the dev. 
 "A trigger lets you register custom application code that is automatically executed
-when a data change (write transaction) occurs in a database system"
+when a data change (write transaction) occurs in a [[Database|database]] system"
 
 
 ----

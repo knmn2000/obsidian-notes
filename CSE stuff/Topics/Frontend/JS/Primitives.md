@@ -1,5 +1,5 @@
 # Chapter 1
-primitives (strings, numbers etc) are not actually objects, even though we get to use methods with them (just like objects)
+primitives (strings, numbers etc) are not actually [[Objects|objects]], even though we get to use methods with them (just like objects)
 
 There are 7 primitive types: `string`, `number`, `bigint`, `boolean`, `symbol`, `null` and `undefined`.
 

@@ -97,7 +97,7 @@ The LSM tree is fundamentally composed of two or more components that hold sorte
 
 1. **Memtable (or C0 Component):**
 
-   - This is an in-memory data structure (often a skip list or balanced tree) that holds the most recent writes.
+   - This is an in-memory [[data structures|data structure]] (often a skip list or balanced tree) that holds the most recent writes.
    - **All new writes/updates go here first.**
    - Writes are very fast because they are to memory.
 

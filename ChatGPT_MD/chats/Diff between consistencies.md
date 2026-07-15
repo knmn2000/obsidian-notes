@@ -21,9 +21,9 @@ Note: There are 2 types of consistencies #read
 
 role::assistant
 
-In the context of distributed systems, consistency in the CAP theorem refers to a system's ability to provide consistent data across all nodes in the network. The CAP theorem states that in a distributed system, it is impossible to simultaneously achieve all three of the following guarantees: Consistency, Availability, and Partition tolerance.
+In the context of [[Distributed systems|distributed systems]], consistency in the CAP theorem refers to a system's ability to provide consistent data across all nodes in the network. The CAP theorem states that in a distributed system, it is impossible to simultaneously achieve all three of the following guarantees: Consistency, Availability, and Partition tolerance.
 
-Consistency in ACID (Atomicity, Consistency, Isolation, Durability) refers to ensuring that transactions are processed accurately and reliably according to predefined rules or constraints within a single database.
+Consistency in ACID (Atomicity, Consistency, Isolation, Durability) refers to ensuring that [[transactions]] are processed accurately and reliably according to predefined rules or constraints within a single [[Database|database]].
 
 The key difference between these two types of consistencies lies in their scope:
 - In CAP theorem consistency: It focuses on maintaining consistency across multiple nodes or replicas in a distributed system despite potential network partitions.

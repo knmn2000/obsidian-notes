@@ -40,7 +40,7 @@ or, please give
 - member since - is this the same as created_at ?
 - primary mob number - PRESENT
 - all directors verified - NOT PRESENT
-- end date - expiresOn is there but it is empty in the API
+- end date - expiresOn is there but it is empty in the [[API]]
 - gst/pan - PRESENT
 - company type - NOT PRESENT
 

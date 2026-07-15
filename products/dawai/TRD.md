@@ -20,7 +20,7 @@ The purpose of this system is to send automated, personalized medicine reminders
     
 - Automated scheduling and triggering of WhatsApp messages.
     
-- Integration with a WhatsApp Business API provider for message delivery.
+- Integration with a WhatsApp Business [[API]] provider for message delivery.
     
 - Focus on cost-effectiveness using serverless AWS services.
     
@@ -117,14 +117,14 @@ The purpose of this system is to send automated, personalized medicine reminders
     
 - **UI Responsiveness:** The web-based setup interface shall load quickly and be responsive across devices.
     
-- **Backend Latency:** API responses for reminder management shall be low-latency (e.g., < 500ms).
+- **Backend [[latency|Latency]]:** API responses for reminder management shall be low-latency (e.g., < 500ms).
     
 
 ### 3.2. Scalability
 
 - The system shall be capable of handling 10,000+ messages per day initially, with the ability to scale to millions of messages per month without significant architectural changes.
     
-- The database shall support a growing number of users and reminders (millions of records).
+- The [[Database|database]] shall support a growing number of users and reminders (millions of records).
     
 
 ### 3.3. Cost-Effectiveness
@@ -221,7 +221,7 @@ The system follows a serverless, event-driven architecture on AWS, complemented 
     
 - **Hosting:** Static website hosted on **AWS S3**.
     
-- **CDN/Security (Optional but Recommended):** **Cloudflare Free Tier** for global caching, fast DNS, SSL, and basic DDoS protection.
+- **CDN/Security (Optional but Recommended):** **Cloudflare Free Tier** for global [[CSE stuff/General terms/Caching|caching]], fast DNS, SSL, and basic DDoS protection.
     
 - **Design:** Adheres to elderly-friendly UI principles: large text, high contrast, prominent buttons, minimal clicks, simple navigation.
     

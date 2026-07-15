@@ -57,7 +57,7 @@ flow:
 5. **OmniLogin exchanges the provider token for a UMS token.**
 6. **UMS token is stored in `localStorage` under `parentapp.com`.**
 7. **User is redirected back to the parent app with an authenticated session.**
-8. **All subsequent API requests use the UMS token.**
+8. **All subsequent [[API]] requests use the UMS token.**
 
 ask joyan to show grapqhl stuff and test out things in the playground.
 - print hub

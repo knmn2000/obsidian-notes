@@ -1,14 +1,14 @@
 Reasoned about task scheduler challenge for 7 seconds
 
-**Balancing simplicity and concurrency**
+**Balancing simplicity and [[concurrency]]**
 
 I'm proposing a clear balance between concurrency and simplicity, like a "multi-level cache" or "Thread-safe LRU cache," to effectively test the candidate's backend development skills.
 
 **Crafting a challenging task**
 
-Engaging with a rate limiter or LRU cache ensures effective testing of the candidate's concurrency and data structure knowledge, aligning well with their experience level.
+Engaging with a rate limiter or LRU cache ensures effective testing of the candidate's concurrency and [[data structures|data structure]] knowledge, aligning well with their experience level.
 
-**Medium-Level Machine Coding Challenge: Basic API Rate Limiter**
+**Medium-Level Machine Coding Challenge: Basic [[API]] Rate Limiter**
 
 Below is a practical backend coding challenge at a **medium** level of difficulty. It’s common for backend developers with around 2–3 years of experience. This challenge tests:
 
