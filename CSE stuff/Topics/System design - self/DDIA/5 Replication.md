@@ -140,7 +140,9 @@ discussed later in part 3
 
 ## Multi-leader replication
 
+![[Pasted image 20260728220700.png]]
 
+single leader vs multi leader in a 
 
 
 

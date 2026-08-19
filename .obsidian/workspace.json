@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e30d32161fd78506",
+        "id": "f27ee16b8e9bc011",
         "type": "tabs",
         "children": [
           {
-            "id": "aac5b35a3dc8c862",
+            "id": "c245f89b62da5a88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,45 @@
               "icon": "lucide-file",
               "title": "5 Replication"
             }
+          },
+          {
+            "id": "8e51497c647ac4cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workstuff/tasks/SEO/New website SEO insights and discussion - August 10.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "New website SEO insights and discussion - August 10"
+            }
+          },
+          {
+            "id": "73e566a686b6b7c2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -51,7 +88,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byModifiedTimeReverse",
-                "autoReveal": false
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -63,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "consistencie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 305.5
   },
   "right": {
     "id": "5d50b5be05f1339b",
@@ -139,7 +177,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -151,13 +191,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE stuff/Topics/System design/Non relational databases.md"
+                "file": "KANBAN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Non relational databases"
+              "title": "Outline of KANBAN"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -173,60 +217,63 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "aac5b35a3dc8c862",
+  "active": "73e566a686b6b7c2",
   "lastOpenFiles": [
+    "Workstuff/tasks/SEO/things to take care of for the new webpage.md",
+    "Workstuff/tasks/SEO/New website SEO insights and discussion - August 10.md",
+    "CSE stuff/Attachments/Pasted image 20260810154555.png",
+    "CSE stuff/Attachments/Pasted image 20260810154547.png",
+    "CSE stuff/Attachments/Pasted image 20260810154533.png",
+    "CSE stuff/Attachments/Pasted image 20260810154523.png",
+    "Workstuff/tasks/SEO/opengraph.md",
+    "Workstuff/tasks/SEO/json-ld.md",
+    "Workstuff/tasks/SEO/notes.md",
+    "CSE stuff/Attachments/Pasted image 20260810134316.png",
+    "CSE stuff/Attachments/Pasted image 20260810134259.png",
+    "Workstuff/tasks/SEO",
+    "Workstuff/tasks/web-revamp",
+    "CSE stuff/Attachments/Pasted image 20260728220700.png",
+    "KANBAN.md",
+    "CSE stuff/Topics/System design - self/DDIA/5 Replication.md",
+    "CSE stuff/Topics/Frontend/JS/Objects.md",
+    "CSE stuff/Topics/Frontend/JS/Primitives.md",
+    "CSE stuff/Topics/System design - self/Whatsapp/Gemini's report.md",
+    "CSE stuff/Topics/System design - bhayani/System Design Foundational Topics 2.md",
+    "CSE stuff/products/leafy/Internal workings.md",
+    "quesBank/intervals.md",
+    "quesBank/Machine coding - rate limiter.md",
+    "Untitled.base",
+    "ChatGPT_MD/chats/Diff between consistencies.md",
+    "CSE stuff/Topics/System design - bhayani/Non relational databases.md",
+    "CSE stuff/General terms/transactions.md",
+    "CSE stuff/Topics/System Design MOC.md",
+    "CSE stuff/Topics/Frontend/Frontend MOC.md",
+    "CSE stuff/Topics/System design - bhayani/Databases.md",
+    "CSE stuff/Topics/System design - bhayani/Distributed systems.md",
+    "Workstuff/tasks/utils.md",
+    "Workstuff/tasks/audit dashboard.md",
+    "Workstuff/tasks/checklist - general.md",
+    "Workstuff/tasks/virtual office description.md",
+    "Untitled 4.base",
+    "Untitled 4.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 3.canvas",
+    "Untitled 1.base",
+    "Untitled 5.canvas",
+    "Untitled 5.base",
+    "Untitled",
+    "Untitled 3.base",
     "CSE stuff/Attachments/Pasted image 20260705232554.png",
     "CSE stuff/Attachments/Pasted image 20260705230733.png",
     "CSE stuff/Attachments/Pasted image 20260705160113.png",
-    "CSE stuff/Attachments/Pasted image 20260705155928.png",
-    "CSE stuff/Attachments/Pasted image 20260704001435.png",
-    "CSE stuff/Attachments/Pasted image 20260704001323.png",
-    "CSE stuff/Attachments/Pasted image 20260704000922.png",
-    "CSE stuff/Topics/System design - self/DDIA/2 Data models and query languages.md",
-    "CSE stuff/Topics/System design - self/DDIA/1 Reliable scalable and maintainable applications.md",
-    "CSE stuff/Topics/Frontend/How do browsers work.md",
-    "CSE stuff/Topics/System design - self/Whatsapp/Gemini's report.md",
     "CSE stuff/Topics/System design - self/Whatsapp/Untitled.canvas",
-    "CSE stuff/Topics/System design - self/General topics/HTTPS.md",
-    "CSE stuff/products/leafy/Internal workings.md",
     "Untitled 2.base",
-    "Untitled 1.base",
-    "Workstuff/Checklist.md",
-    "CSE stuff/products/leafy/edge cases.md",
-    "CSE stuff/products/leafy/how to publish.md",
-    "CSE stuff/Topics/System design - self/DDIA/3 Storage and retrieval.md",
-    "CSE stuff/Topics/leafy-workings",
-    "CSE stuff/Topics/System design - self/DDIA/4 Encoding.md",
-    "CSE stuff/Topics/System design - self/DDIA/5 Replication.md",
-    "CSE stuff/products/leafy",
-    "CSE stuff/products",
-    "2024-10-26.md",
-    "maniacal.md",
-    "Workstuff/discussions/TRDs/Guest registration.md",
-    "Workstuff/discussions/auth package.md",
-    "Workstuff/Refs/voiceflow.md",
-    "Workstuff/Refs/typeORM.md",
-    "Workstuff/Notes.md",
-    "Workstuff/tasks/paddle_court-activity/Activity-Paddle court.md",
-    "Workstuff/tasks/notepad for VO.md",
-    "Workstuff/tasks/utils.md",
-    "Workstuff/tasks/checklist - general.md",
-    "CSE stuff/General terms/RPC.md",
-    "CSE stuff/General terms/REST.md",
-    "untitled folder",
-    "CSE stuff/Topics/System design - self/DDIA/Untitled",
-    "CSE stuff/Attachments/Pasted image 20251231011912.png",
-    "CSE stuff/Attachments/Pasted image 20251231000316.png",
-    "CSE stuff/Attachments/Pasted image 20251230235946.png",
-    "CSE stuff/Attachments/Pasted image 20251206011907.png",
-    "Untitled.base",
-    "Workstuff/tasks/paddle_court-activity",
-    "Workstuff/tasks/impact page",
-    "Untitled 2.canvas",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "CSE stuff/Topics/leafy-workings"
   ]
 }
