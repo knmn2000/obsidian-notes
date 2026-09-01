@@ -11,7 +11,6 @@ const client = createClient({
   useCdn: false,
   apiVersion: "2021-10-21",
   token:
-    "sk1XkRwOnlGeoYpOvPDLtXhGrA8x8WvykQhMdM5xmEUeGmIei9tw70mCFMCbvXdpTjQcttsO82UFMZXg4rk2EnlxcmnP3U5YqUCWmYxP2gE2DgFcoMwhmnUjUj8hx3dRgyNN0428tGZU31iZLy6lWYgtDjm16i4TFpljmgBEWyxN07TgT2ZN",
 });
 
 // const csvFilePath = "location.csv";
